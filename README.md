@@ -1,5 +1,6 @@
 #Hello World
 **Here is a story, why I choose to be a part of IT**
+
 ***It was rainy September day, and I was sitting in a warm living room and drinking a 
 couple of hot coffee and scrolling Instagram. Story after story and my eyes suddenly stopped 
 on a story with #Acodemy page hashtag. I taped on the link and started to explore the page. 
@@ -21,7 +22,8 @@ I received the answer from Acodemy shortly, and I decided to give it a chance.**
 
 **Opportunity to learn absolutely something new**
 
-(Here will be a picture, in future)
+![learning](img/learning.jpg)
+
 ***Why I decided to study such an important thing as Information Technologies? 
 Because education is like food - you need it every day, and if you didn't have a food you will starve, 
 and at one day you will die. New information improves your skills, you become an interesting person, 
