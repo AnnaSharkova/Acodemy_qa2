@@ -106,7 +106,7 @@ public class PrimitiveTypes {
         System.out.println(10.1D);
 
 
-//        Integral example
+        // Integral example
 
         // Byte (classroom)
 
@@ -260,56 +260,108 @@ public class PrimitiveTypes {
         System.out.println(ch);
         System.out.println(p);
 
+        //Char (My examples)
+
+        char Anna = 'a';
+        System.out.println(Anna);
+
+        char Sarkova ='b';
+        System.out.println(Sarkova);
+
+        char student = 'c';
+        System.out.println(student);
+
+        char Acodemy = 'd';
+        System.out.println(Acodemy);
+
+        char homework = 'e';
+        System.out.println(homework);
+
+        char hours = 'f';
+        System.out.println(hours);
+
+        char intelliJ = 'g';
+        System.out.println(intelliJ);
+
+        char skills = 'h';
+        System.out.println(skills);
+
+        char gitHub = 'i';
+        System.out.println(gitHub);
+
+        char best = 'j';
+        System.out.println(best);
 
 
-
+        // Classroom
         int[] arrayOfPeopleAges = {21, 22, 23, 24};
         System.out.println(Arrays.toString(arrayOfPeopleAges));
 
+        //Homework
+        int[] arrayOfPeopleAges2 = {20, 30, 40, 50};
+        System.out.println(Arrays.toString(arrayOfPeopleAges2));
 
         // String variables
+        // My Examples
 
-        String myName = "Nikita";
+        String myName = "Anna";
         System.out.println(myName);
 
-        String loremIpsum = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus pharetra iaculis. Quisque at feugiat sem.";
-        System.out.println(loremIpsum);
+        String mySurname = "Sarkova";
+        System.out.println(mySurname);
 
-        String mySurname = "Milka";
+        String myDog = "Iva Duval Leroy";
+        System.out.println(myDog);
 
-//        String myNameAndUsername = myName + mySurname;
-//        String myNameAndUsername = myName + " " + mySurname;
-//        System.out.println(myNameAndUsername);
+        String ownerOfIva = myName + mySurname;
+        System.out.println(ownerOfIva);
 
-        // %s = string
-        // %d = int
+        String ownerOfIva1 = myName + " " + mySurname;
+        System.out.println(ownerOfIva1);
 
+        //Classroom + Homework
         System.out.printf("My name is %s. My surname is %s.\n", myName, mySurname);
         System.out.println("My name is " + myName + "." + " " + "My surname is " + mySurname + ".");
 
 
-        // Operators
+        // Operators (My examples)
 
-        int sumOfTwoNumbers = 10 + 30;
-        System.out.println(sumOfTwoNumbers);
+        int a = 10;
+        int b = 12;
+        int c = a + b;
+        System.out.println(c);
 
-        System.out.println(5 + 10);
-        System.out.println("5 + 10");
+        int d = 35;
+        int e = 48;
+        int f = d + e;
+        System.out.println(f);
 
-        int a = 30;
-        int b = 5;
+        int g = 6;
+        int h = 2;
+        int i = g - h;
+        System.out.println(i);
 
-        System.out.println(a / b);
-        System.out.println(a - b);
-        System.out.println(a * b);
-        System.out.println(a + b);
+        int n = e - b;
+        System.out.println(n);
 
-        System.out.println(9 % 4);
+        int o = d - h;
+        System.out.println(o);
 
-        // 4 4 = 8
-        // Result: 1
+        int j = 150;
+        int k = 5;
+        int l = j / k;
+        System.out.println(l);
 
-        float doubleDivision = 100 / 13F;
+        int u = d / h;
+        System.out.println(u);
+
+        int t = j * k;
+        System.out.println(t);
+
+        int s = a * b;
+        System.out.println(s);
+
+        float doubleDivision = 50 / 11F;
         System.out.println(doubleDivision);
     }
 }
