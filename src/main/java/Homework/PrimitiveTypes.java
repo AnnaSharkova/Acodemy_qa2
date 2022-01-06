@@ -31,7 +31,6 @@ public class PrimitiveTypes {
         System.out.println(floatExampleFive);
         System.out.println(65432.1F);
 
-
         float floatExampleSix = 789.789F;
         System.out.println(floatExampleSix);
         System.out.println(789.789F);
@@ -58,7 +57,10 @@ public class PrimitiveTypes {
         System.out.println(doubleExample);
         System.out.println(2000000.9876D);
 
-//        Double (My examples)
+        // Double (My examples)
+
+        System.out.println(Double.MIN_VALUE);
+        System.out.println(Double.MAX_VALUE);
 
         double doubleExampleOne = 1000.22D;
         System.out.println(doubleExampleOne);
@@ -105,20 +107,89 @@ public class PrimitiveTypes {
 //        Integral example
 
         // Byte (classroom)
+
         byte handCount = 2;
         System.out.println(handCount);
         System.out.println(Byte.MIN_VALUE);
         System.out.println(Byte.MAX_VALUE);
 
+        // Byte (My examples)
+        System.out.println(Byte.MIN_VALUE);
+        System.out.println(Byte.MAX_VALUE);
+
+        byte legsCount = 2;
+        System.out.println(legsCount);
+
+        byte acodemyStudents = 20;
+        System.out.println(acodemyStudents);
+
+        byte monthsInYear = 12;
+        System.out.println(monthsInYear);
+
+        byte countriesInEurope = 65;
+        System.out.println(countriesInEurope);
+
+        byte minutesInHour = 60;
+        System.out.println(minutesInHour);
+
+        byte acodemyGroups = 5;
+        System.out.println(acodemyGroups);
+
+        byte presidentsOfUSA = 46;
+        System.out.println(presidentsOfUSA);
+
+        byte whinterOlympicGames = 24;
+        System.out.println(whinterOlympicGames);
+
+        byte townsOfLatvia = 76;
+        System.out.println(townsOfLatvia);
+
+        byte booksHarryPotter = 7;
+        System.out.println(booksHarryPotter);
+
+
+
         // Short (classroom)
         short distanceBetweenKievAndRiga = 1011;
         System.out.println(distanceBetweenKievAndRiga);
+
+        // Short (My examples)
+
+        System.out.println(Short.MIN_VALUE);
+        System.out.println(Short.MAX_VALUE);
+
+        short distanceBetweenRigaAndMoskow = 919;
+        System.out.println(distanceBetweenRigaAndMoskow);
+
+        short highMountEverest = 8849;
+        System.out.println(highMountEverest);
+
+        short distanceBetweenRigaAndBrazil = 10502;
+        System.out.println(distanceBetweenRigaAndBrazil);
+
+        short distanceBetweenRigaAndSydney = 15308;
+        System.out.println(distanceBetweenRigaAndSydney);
+
+        short populationUSA = 290;
+        System.out.println(populationUSA);
+
+        short distanceBetweenRigaAndPskov = 278;
+        System.out.println(distanceBetweenRigaAndPskov);
+
 
         // Integer (classroom)
         int populationOfLatvia = 1900000;
         System.out.println(populationOfLatvia);
 
+        // Integer (My examples)
+
+        System.out.println(Integer.MIN_VALUE);
+        System.out.println(Integer.MAX_VALUE);
+
+
+
         // Long (classroom)
+
         long currentWorldPopulation = 7900000000L;
         System.out.println(currentWorldPopulation);
 
