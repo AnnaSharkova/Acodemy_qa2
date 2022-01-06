@@ -1,5 +1,8 @@
 package Homework;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class PrimitiveTypes {
     public static void main(String[] args) {
 //        Floating point example
@@ -103,7 +106,6 @@ public class PrimitiveTypes {
         System.out.println(10.1D);
 
 
-
 //        Integral example
 
         // Byte (classroom)
@@ -186,12 +188,68 @@ public class PrimitiveTypes {
         System.out.println(Integer.MIN_VALUE);
         System.out.println(Integer.MAX_VALUE);
 
+        int gamesOfThronesEpisodes = 73;
+        System.out.println(gamesOfThronesEpisodes);
+
+        int filmsMarvel = 27;
+        System.out.println(filmsMarvel);
+
+        int myBirthDate = 1990;
+        System.out.println(myBirthDate);
+
+        int populationOfRiga = 632614;
+        System.out.println(populationOfRiga);
+
+        int whinterOlympicGamesSports = 7;
+        System.out.println(whinterOlympicGamesSports);
+
+        int populationOfUK = 67220000;
+        System.out.println(populationOfUK);
+
+        int minutsInADay = 1440;
+        System.out.println(minutsInADay);
 
 
         // Long (classroom)
 
         long currentWorldPopulation = 7900000000L;
         System.out.println(currentWorldPopulation);
+
+        // Long (My examples)
+
+        System.out.println(Long.MIN_VALUE);
+        System.out.println(Long.MAX_VALUE);
+
+        long distanceToTheSun = 149597870700L;
+        System.out.println(distanceToTheSun);
+
+        long distanceToTheMercury = 57910006L;
+        System.out.println(distanceToTheMercury);
+
+        long distanceToTheMoon = 384400L;
+        System.out.println(distanceToTheMoon);
+
+        long distanceToTheJupiter = 588000000L;
+        System.out.println(distanceToTheJupiter);
+
+        long areaOfLand = 510100000L;
+        System.out.println(areaOfLand);
+
+        long areaOfTheWorldOcean = 361100000L;
+        System.out.println(areaOfTheWorldOcean);
+
+        long areaOfEarth = 149939063133L;
+        System.out.println(areaOfEarth);
+
+        long areaOfRussia = 17130000L;
+        System.out.println(areaOfRussia);
+
+        long areaOfLatvia = 64589L;
+        System.out.println(areaOfLatvia);
+
+        long areaOfUSA = 9834000L;
+        System.out.println(areaOfUSA);
+
 
         // Char (classroom)
         char ch = '\u03A9';
@@ -203,8 +261,11 @@ public class PrimitiveTypes {
         System.out.println(p);
 
 
+
+
         int[] arrayOfPeopleAges = {21, 22, 23, 24};
         System.out.println(Arrays.toString(arrayOfPeopleAges));
+
 
         // String variables
 
