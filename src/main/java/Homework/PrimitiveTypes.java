@@ -313,15 +313,37 @@ public class PrimitiveTypes {
         String myDog = "Iva Duval Leroy";
         System.out.println(myDog);
 
+        String springLover = "I'm waiting spring.";
+        System.out.println(springLover);
+
+        String vacationMood = "I'm looking forward to vacation!";
+        System.out.println(vacationMood);
+
+        String ivaDuval = "is owner of Iva Duval Leroy - happiest dog ever!";
+        System.out.println(ivaDuval);
+
         String ownerOfIva = myName + mySurname;
         System.out.println(ownerOfIva);
 
         String ownerOfIva1 = myName + " " + mySurname;
         System.out.println(ownerOfIva1);
 
+        System.out.println(springLover + " " + vacationMood);
+
+        System.out.println(myName + " " + mySurname + " " + ivaDuval);
+
         //Classroom + Homework
         System.out.printf("My name is %s. My surname is %s.\n", myName, mySurname);
         System.out.println("My name is " + myName + "." + " " + "My surname is " + mySurname + ".");
+
+        String introduction = "Hi everyone, I'm Anna Sarkova - student of Acodemy QA Automation course.\n";
+        String homeworkjava = "Today I'm happy to realize that I start to understand what I do in intelliJ programm.\n";
+        String workhard = "If you work hard and everyday make little steps to your purpose - something big will happen!\n";
+        System.out.println(introduction + homeworkjava + workhard);
+
+        System.out.printf("My name is %s. My surname is %s. I'm owner of %s.\n", myName, mySurname, myDog);
+        System.out.printf("I'm happy, because %s\n", vacationMood);
+
 
 
         // Operators (My examples)
