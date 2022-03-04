@@ -20,7 +20,7 @@ If you are older than 65, your discount is 20%.
 
 
     public static void main(String[] args) {
-      int humanAge = 35;
+        int humanAge = 35;
         if(humanAge = 18; humanAge <= 21){
             System.out.println("Your discount im dry cleaning is 10%");
         }else if (humanAge >= 22; humanAge <= 65){
@@ -35,11 +35,18 @@ If you are older than 65, your discount is 20%.
 
 //  3.Create array, put into array 10 animals
 
-public static void main(String[] args) {
     String[]animalsArray = {"cat", "dog", "panda", "horse", "pig", "snake", "sheep", "bear", "fox", "bull"};
-    System.out.println(animalsArray[4]);
+    System.out.println(animalsArray[6]);
 }
 
+// 4. Write array from 0 to 10, and print even numbers.
+
+        int[] Numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        for (int=0; i<numbers.lenght; i++){
+            if (numbers[i] % 2 == 0) {
+                System.out.println(numbers[i]);
+            }
 
 
+}
 }
