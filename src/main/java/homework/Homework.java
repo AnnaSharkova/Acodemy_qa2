@@ -37,7 +37,7 @@ If you are older than 65, your discount is 20%.
 
     String[]animalsArray = {"cat", "dog", "panda", "horse", "pig", "snake", "sheep", "bear", "fox", "bull"};
     System.out.println(animalsArray[6]);
-}
+
 
 // 4. Write array from 0 to 10, and print even numbers.
 
@@ -46,7 +46,39 @@ If you are older than 65, your discount is 20%.
             if (numbers[i] % 2 == 0) {
                 System.out.println(numbers[i]);
             }
-
-
 }
+// 5. I need to go to work, and I need to choose transport.
+
+    String transport = "Taxi";
+        switch (transport){
+        case "Car":
+            System.out.println("I can't drive, i'm ill");
+            break;
+        case "Bus":
+            System.out.println("No, it's too much time");
+            break;
+        case "Byke":
+            System.out.println("Thank you, not today");
+            break;
+        case "Taxi":
+            System.out.println("That's good idea, well done");
+            break;
+        }
+
+
+// 6. Print numbers from 1 to 100 on the screen.
+       int x = 1;
+        while (x>=100); {
+        System.out.println(x);
+        x++;
+        }
+
+// 7. Print numbers from 50 to 1 on the screen.
+    int x = 50;
+    while (x>=1);{
+        System.out.println(x);
+        x--;
+    }
+
+// 8. Print multiplication table on the screen (from 1 to 100)
 }
