@@ -23,11 +23,11 @@ If you are older than 65, your discount is 20%.
         int humanAge = 35;
         if(humanAge >= 18 && humanAge <= 21){
             System.out.println("Your discount im dry cleaning is 10%");
-        }else if (humanAge >= 22 && humanAge <= 65){
+        } else if (humanAge >= 22 && humanAge <= 65){
             System.out.println("Your discount in dry cleaning is 15%");
-        }else if (humanAge > 65) {
+        } else if (humanAge > 65) {
             System.out.println("You are old human, your discount is 20%");
-        }else (humanAge > 18) {
+        } else (humanAge > 18) {
             System.out.println("You are too young human, go away");
         }
     }
